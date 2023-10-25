@@ -36,7 +36,7 @@ const fetchPostErrorAction = (error) => {
   };
 };
 
-// Real Action *****
+// Real Action : Thunk Action Creator *****
 const fetchPostAction = () => {
   return async (dispatch) => {
     dispatch(fetchPostPendingAction());
